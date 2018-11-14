@@ -6,15 +6,29 @@
     padding: 0px;
 }
 
-div {
+.container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .animal {
+    display: flex;
     flex-basis: 25%;
+    
 }
 
 img {
     width: 250px;
+}
+
+.dogpound {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.puppy {
+    display: flex;
+    flex-basis: 30%;
 }
